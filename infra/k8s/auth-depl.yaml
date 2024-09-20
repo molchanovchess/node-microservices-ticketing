@@ -14,10 +14,10 @@ spec:
     spec:
       containers:
         - name: auth
-          image: mlchss/auth
+          image: bulkinadivane/auth
 ---
 apiVersion: v1
-kind: service
+kind: Service
 metadata:
   name: auth-srv
 spec:
