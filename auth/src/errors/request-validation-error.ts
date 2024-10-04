@@ -20,5 +20,3 @@ export class RequestValidationError extends CustomError {
     });
   }
 }
-
-// throw new RequestValidationError(errors);
